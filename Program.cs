@@ -1,7 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello from Azure Free Tier tester updated V!");
+app.MapGet("/", () => "Hello from Azure Free Tier tester updated VI!");
 
 app.MapGet("/cpu", async () =>
 {
